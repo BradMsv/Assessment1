@@ -1,0 +1,47 @@
+#menu {
+	
+	position: fixed;
+	left: -110px;
+	top: 50px;
+	width: 100px;
+	height: 100px;
+	padding: 5px;
+	background-color: darkblue;
+	transition: all 0.5s;
+	border-radius: 5px;
+	
+}
+
+.inButtons {
+	
+	margin-top: 3px;
+	width: 100%;
+	background-color: white;
+	height: 20px;
+	padding: 5px;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 5px;
+	line-height: 10px;
+	
+}
+
+.outButtons {
+	
+	position: absolute;
+	width: 50px;
+	right: -50px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	text-align: center;
+	
+}
+
+#Open {
+	top: 0px;
+}
+
+#Close {
+	bottom: 0px;
+}
